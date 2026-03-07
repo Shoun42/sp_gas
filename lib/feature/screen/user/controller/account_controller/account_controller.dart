@@ -8,5 +8,14 @@ class AccountController extends GetxController{
   void moveToEditView(){
     Get.toNamed(AppPages.editAccount);
   }
+  void moveToOrder(){
+    Get.toNamed(AppPages.orderview);
+  }
+void moveToSettings(){
+    Get.toNamed(AppPages.settingsView);
+  }
+  void moveToMonthlyConsumption(){
+    Get.toNamed(AppPages.monthlyConsumptionView);
+  }
 
 }
