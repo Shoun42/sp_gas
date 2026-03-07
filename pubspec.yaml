@@ -36,10 +36,14 @@ dependencies:
   cupertino_icons: ^1.0.8
   get: ^4.7.3
   flutter_screenutil: ^5.9.3
+  pin_code_fields: ^9.1.0
+  circular_chart_flutter: ^0.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  fl_chart: ^0.66.2
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

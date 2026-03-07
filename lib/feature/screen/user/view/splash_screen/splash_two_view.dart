@@ -57,21 +57,21 @@ class SplashTwoView extends GetView<SplashTwoController> {
                           Divider(),
                           TextButton(
                             onPressed: () {
-                              //controller.moveToThreeScreen();
+                              controller.moveToNextPage();
                             },
                             child: Text("Allow Once"),
                           ),
                           Divider(),
                           TextButton(
                             onPressed: () {
-                              //controller.moveToThreeScreen();
+                              controller.moveToNextPage();
                             },
                             child: Text("Allow While Using the App"),
                           ),
                           Divider(),
                           TextButton(
                             onPressed: () {
-                              //controller.moveToThreeScreen();
+                              controller.moveToNextPage();
                             },
                             child: Text(
                               "Don’t Allow",
